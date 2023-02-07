@@ -1,5 +1,5 @@
 {
-  "name": "Online Quiz",
+  "name": "online-quiz-api",
   "version": "1.0.0",
   "description": "MCQ online quiz.",
   "main": "server.js",
