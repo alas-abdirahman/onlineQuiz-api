@@ -1,15 +1,22 @@
 const { Schema } = require('mongoose');
-const mongoose = require('mongoose');
+const {schema}=require ('mongoose');
+const mongoose= require ('mongoose');
 
-const Question = new mongoose.Schema({
+const Question= new mongoose.Schema({
   quizID: {
     ref: "Quiz",
-    type: Schema.Types.ObjectId,
-  },
-  question: {
-    type: String,
-    required: true,
-  },
+    type:Schema.Types.ObjectId
+  }
+    ,
+
+    question:{
+      type: String,
+      required: true,
+    
+
+
+    },
+  
   option1: {
     type: String,
     required: true,

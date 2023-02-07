@@ -6,18 +6,51 @@ const Quiz = new mongoose.Schema({
     required: true,
     unique: true
   },
-  subject: {
-    type: String,
-    required: true,
-  },
-  totalQuestion: {
-    type: Number,
-    required: true,
-  },
-  totalMarks: {
-    type: Number,
-    required: true
-  },
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+subject:{
+  type: String,
+  require: true
+
+},
+totalMarks:{
+  type: Number,
+  require: true, 
+
+},
+totalQuestion:{
+  type: Number,
+  require:true
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   duration: {
     type: Number,
     required: true

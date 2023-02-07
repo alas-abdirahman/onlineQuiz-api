@@ -15,19 +15,21 @@ const Admin = new mongoose.Schema({
     required: true,
     unique: true
   },
-  username: {
-    type: String,
-    required: true,
-    unique: true
-  },
-  password: {
-    type: String,
-    required: true,
-  },
-  status: {
-    type: String,
-    default:"active"
-  }
+ 
+usename:{
+  type: String,
+  require: true,
+  unique: true
+},
+password: {
+  type: String,
+  require: true,
+},
+
+status: {
+  type: String,
+  default: "Active"
+}
 });
 
 module.exports = mongoose.model('Admin', Admin, 'Admins');
